@@ -9,14 +9,14 @@
 int main(void)
 {
 
-int a, n;
-for (a = 97; a == 122; a++)
+int a;
+for (a = 'a'; a <= 'z'; a++)
 {
 	putchar(a);
 }
-for (n = 65; n == 90; n++)
+for (a = 'A'; a <= 'Z'; a++)
 {
-	putchar(n);
+	putchar(a);
 }
 putchar(10);
 return (0);

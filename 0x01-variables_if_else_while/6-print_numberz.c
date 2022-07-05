@@ -7,10 +7,10 @@
 int main(void)
 {
 
-int ch;
-for (ch = 47; ch <= 57; ch++)
+int h;
+for (h = 48; h <= 57; h++)
 {
-	putchar(ch);
+	putchar(h);
 }
 putchar(10);
 return (0);
