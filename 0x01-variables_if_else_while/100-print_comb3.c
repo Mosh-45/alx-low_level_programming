@@ -24,5 +24,6 @@ for (h = 48; h <= 57; h++)
 		}
 	}
 }
+putchar(10);
 return (0);
 }
